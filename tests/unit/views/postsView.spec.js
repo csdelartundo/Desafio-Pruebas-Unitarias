@@ -1,9 +1,6 @@
 import { mount } from '@vue/test-utils'
 import { createRouter, createWebHistory } from 'vue-router'
-
 import PostsView from '@/views/PostsView.vue'
-
-
 
 describe('PostsView', () => { 
     test('Probando la existencia del componente o vista PostsView ', async () => {
